@@ -1,0 +1,1 @@
+{"version":3,"file":"kio-content.js","sourceRoot":"","sources":["../../src/interfaces/kio-content.ts"],"names":[],"mappings":"","sourcesContent":["import { KioNode } from './kio-node'\nimport { KioContentData } from './kio-content-data'\n\nexport interface KioContent extends KioNode {\n  data?:KioContentData|undefined\n}"]}
