@@ -2,7 +2,7 @@ import { KioContentType, KioNodeTypeName } from '../../types'
 
 export interface ComponentAnnotation {
   type: KioNodeTypeName
-  modifiers: any|any[]
+  modifiers?: any|any[]
   childTypes?: any|any[]
 }
 
