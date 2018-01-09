@@ -1,1 +1,0 @@
-{"version":3,"file":"interfaces.js","sourceRoot":"","sources":["../../src/matching/interfaces.ts"],"names":[],"mappings":"","sourcesContent":["import { KioContentType } from '../types/kio-content'\n\nexport interface ComponentFixture {\n  type:KioContentType\n  modifiers:string[]\n  childTypes?:string[]\n}\n\nexport interface MatchingQuery {\n  [key:string]: any;\n}"]}

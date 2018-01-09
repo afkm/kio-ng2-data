@@ -1,15 +1,14 @@
 {
   "name": "kio-ng2-data",
   "version": "0.0.1",
-  "main": "release/index.js",
-  "typings": "release/index.d.ts",
+  "main": "./src",
+  "typings": "/src/index.ts",
   "scripts": {
     "prebuild": "rm -rf ./release",
     "build": "NODE_ENV=production tsc",
     "prebuild:release": "rm -rf ./release",
     "build:release": "NODE_ENV=production tsc",
-    "build:release:watch": "./scripts/watch.sh build:release",
-    "preversion": "npm run build"
+    "build:release:watch": "./scripts/watch.sh build:release"
   },
   "keywords": [],
   "author": "Matthias Buchholz",

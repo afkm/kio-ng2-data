@@ -1,1 +1,0 @@
-{"version":3,"file":"kio-fragment.js","sourceRoot":"","sources":["../../src/interfaces/kio-fragment.ts"],"names":[],"mappings":"","sourcesContent":["import { KioContent } from './kio-content'\nimport { KioNode } from './kio-node'\n\nexport interface KioFragment extends KioContent {\n  level? : number;\n  children? : KioNode[];\n  cont? : any[];\n}\n"]}
