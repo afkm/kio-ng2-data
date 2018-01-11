@@ -1,0 +1,1 @@
+{"version":3,"file":"kio-publication-query.js","sourceRoot":"","sources":["../../src/interfaces/kio-publication-query.ts"],"names":[],"mappings":"","sourcesContent":["import { KioQuery } from './kio-query'\n\nexport interface KioPublicationQuery extends KioQuery {\n  populate? : boolean;\n}\n"]}

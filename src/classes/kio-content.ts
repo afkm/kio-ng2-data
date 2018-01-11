@@ -10,7 +10,12 @@ export class KioContentModel extends KioNodeModel {
     {
       this._data = data.data
     }
+
+    this.text = data.text
   }
+
+  // only for nodes of type TXT
+  readonly text : string
 
   get isKioContent(){
     return true

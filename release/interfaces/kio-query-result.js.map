@@ -1,0 +1,1 @@
+{"version":3,"file":"kio-query-result.js","sourceRoot":"","sources":["../../src/interfaces/kio-query-result.ts"],"names":[],"mappings":"","sourcesContent":["import { KioQuery } from './kio-query'\n\nexport interface KioQueryResult {\n  success:boolean;\n  error:Error|null;\n  query:KioQuery;\n  data:any;\n}\n"]}

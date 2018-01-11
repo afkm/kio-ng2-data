@@ -1,0 +1,1 @@
+{"version":3,"file":"kio-query.js","sourceRoot":"","sources":["../../src/interfaces/kio-query.ts"],"names":[],"mappings":"","sourcesContent":["export interface KioQuery {\n  cuid:string;\n  locale?:string;\n  cmd:string;\n  role:string;\n  params?:any;\n  headers?:boolean;\n}\n"]}
