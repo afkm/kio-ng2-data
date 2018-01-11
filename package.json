@@ -2,7 +2,7 @@
   "name": "kio-ng2-data",
   "version": "0.0.2",
   "main": "./src",
-  "typings": "/src/index.ts",
+  "typings": "./src/index.ts",
   "scripts": {
     "prebuild": "rm -rf ./release",
     "build": "NODE_ENV=production tsc",
