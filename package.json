@@ -1,6 +1,6 @@
 {
   "name": "kio-ng2-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src",
   "typings": "/src/index.ts",
   "scripts": {
