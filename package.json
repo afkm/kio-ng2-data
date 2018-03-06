@@ -1,8 +1,8 @@
 {
   "name": "kio-ng2-data",
   "version": "0.0.1",
-  "main": "release/index.js",
-  "typings": "release/index.d.ts",
+  "main": "./src",
+  "typings": "./src/index.ts",
   "scripts": {
     "prebuild": "rm -rf ./release",
     "build": "NODE_ENV=production tsc",

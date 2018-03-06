@@ -1,1 +1,0 @@
-{"version":3,"file":"kio-o-embed.js","sourceRoot":"","sources":["../../src/interfaces/kio-o-embed.ts"],"names":[],"mappings":"","sourcesContent":["export interface KioOEmbedData {\n  tag:string ,\n  attributes:any   \n}\n\nexport interface KioOEmbed {\n  html:string ,\n  data:KioOEmbedData\n}\n"]}

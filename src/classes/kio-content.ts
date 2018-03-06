@@ -6,9 +6,10 @@ export class KioContentModel extends KioNodeModel {
   constructor ( data:any, parent?:any ) {
     super(data,parent)
 
-    if ( data.data )
-    {
+    if ( 'data' in data ) {
       this._data = data.data
+    } else if ( 'text' in data ) {
+      this._data = data.text
     }
   }
 
