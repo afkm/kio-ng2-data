@@ -1,6 +1,6 @@
 {
   "name": "kio-ng2-data",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "./src",
   "typings": "./src/index.ts",
   "scripts": {
@@ -8,8 +8,7 @@
     "build": "NODE_ENV=production tsc",
     "prebuild:release": "rm -rf ./release",
     "build:release": "NODE_ENV=production tsc",
-    "build:release:watch": "./scripts/watch.sh build:release",
-    "preversion": "npm run build"
+    "build:release:watch": "./scripts/watch.sh build:release"
   },
   "keywords": [],
   "author": "Matthias Buchholz",
@@ -20,9 +19,13 @@
     "typescript": "^2.3.4"
   },
   "dependencies": {},
+  "description": "kio module for angular2 projects",
   "repository": {
     "type": "git",
-    "url": "git@github.com:afkmatze/kio-ng2.git"
+    "url": "git+ssh://git@gitlab.com/kio-ng2/data.git"
   },
-  "description": "kio module for angular2 projects"
+  "bugs": {
+    "url": "https://gitlab.com/kio-ng2/data/issues"
+  },
+  "homepage": "https://gitlab.com/kio-ng2/data#README"
 }
